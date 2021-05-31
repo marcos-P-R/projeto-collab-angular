@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./cadastro.component.css']
 })
 export class CadastroComponent implements OnInit {
+  hide1:boolean = true;
+  hide2:boolean = true;
 
   constructor() { }
 

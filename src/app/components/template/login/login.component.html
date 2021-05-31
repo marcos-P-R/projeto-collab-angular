@@ -1,15 +1,15 @@
 <section class="login" id="login">
     <h2>Login</h2>
-    <form method="post">
+    <form>
         <section class="formulario">
             <mat-form-field appearance="outline">
                 <input type="text" matInput placeholder="Nome">
             </mat-form-field>
             <mat-form-field appearance="outline">
-                <input type="password" matInput placeholder="Senha" [type]="hide?'password':'text'">
-                <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
-                    <mat-icon>{{ hide ? 'visibility_off' : 'visibility' }}</mat-icon>
-                </button>
+                <input type="password" matInput placeholder="Senha" [type]="hide1?'password':'text'">
+            <button mat-icon-button matSuffix (click)="hide1 = !hide1" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide1">
+                <mat-icon>{{ hide1 ? 'visibility_off' : 'visibility' }}</mat-icon>
+            </button>
             </mat-form-field>
         </section>
     </form>

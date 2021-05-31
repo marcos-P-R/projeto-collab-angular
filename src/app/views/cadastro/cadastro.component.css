@@ -1,0 +1,16 @@
+.formulario{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-formulario{
+    width: 51%;
+    margin-top: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4.5em;
+}
+
+input{
+    border-color: #3636A1;
+}
