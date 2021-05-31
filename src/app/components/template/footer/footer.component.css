@@ -1,0 +1,10 @@
+.footer{
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.txt-footer{
+    font-weight: 300;
+    color: #3636A1;
+}

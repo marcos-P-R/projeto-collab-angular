@@ -1,0 +1,36 @@
+.login{
+    width: 51%;
+    margin-top: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4.5em;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    display: block;
+    font-family: 'Rochester', cursive;
+    color: #3636A1;
+    font-size: 48px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 64px;
+}
+
+.container-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+button{
+    border-color: #3636A1;
+    margin: 2px;
+    width: 290px;
+    border-radius: 33px;
+}
