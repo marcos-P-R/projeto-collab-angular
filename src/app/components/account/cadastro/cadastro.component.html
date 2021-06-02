@@ -1,24 +1,31 @@
 <section class="container-formulario">
     <form class="formulario">
+        <h2>Cadastro</h2>
         <mat-form-field appearance="outline">
+            <mat-label>Nome</mat-label>
             <input type="text" matInput placeholder="Nome">
         </mat-form-field>
         <mat-form-field appearance="outline">
+            <mat-label>Instituição de Ensino</mat-label>
             <input type="text" matInput placeholder="Instituição de Ensino">
         </mat-form-field>
         <mat-form-field appearance="outline">
+            <mat-label>E-mail Academico</mat-label>
             <input type="email" matInput placeholder="E-mail Academico">
         </mat-form-field>
         <mat-form-field appearance="outline">
+            <mat-label>Nome de login</mat-label>
             <input type="text" matInput placeholder="Nome de Login">
         </mat-form-field>
         <mat-form-field appearance="outline">
+            <mat-label>Senha</mat-label>
             <input type="password" matInput placeholder="Senha" [type]="hide1?'password':'text'">
             <button mat-icon-button matSuffix (click)="hide1 = !hide1" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide1">
                 <mat-icon>{{ hide1 ? 'visibility_off' : 'visibility' }}</mat-icon>
             </button>
         </mat-form-field>
         <mat-form-field appearance="outline">
+            <mat-label>Senha</mat-label>
             <input type="password" matInput placeholder="Digite novamente sua senha" [type]="hide2?'password':'text'">
             <button mat-icon-button matSuffix (click)="hide2 = !hide2" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide2">
                 <mat-icon>{{ hide2 ? 'visibility_off' : 'visibility' }}</mat-icon>

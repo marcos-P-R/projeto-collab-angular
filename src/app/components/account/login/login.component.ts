@@ -8,9 +8,11 @@ import { Component, OnInit } from '@angular/core';
 export class LoginComponent implements OnInit {
   hide1:boolean = true;
 
-  constructor() { }
-
   ngOnInit(): void {
+  }
+
+  fazerLogin(){
+ 
   }
 
 }

@@ -1,0 +1,19 @@
+<section class="login" id="login">
+    <h2>Login</h2>
+    <form>
+        <section class="formulario">
+            <mat-form-field appearance="outline">
+                <mat-label>Username</mat-label>
+                <input id="username" type="text" matInput placeholder="username">
+            </mat-form-field>
+            <mat-form-field appearance="outline">
+                <mat-label>Senha</mat-label>
+                <input id="password" type="password" matInput placeholder="Senha">
+            </mat-form-field>
+        </section>
+    </form>
+    <section class="container-button">
+        <button mat-stroked-button color="primary">Entrar</button>
+        <button mat-stroked-button color="primary" [routerLink]="['views/cadastro']">Cadastrar</button>
+    </section>
+</section>

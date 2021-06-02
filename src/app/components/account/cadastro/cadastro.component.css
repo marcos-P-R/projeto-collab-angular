@@ -14,3 +14,10 @@
 input{
     border-color: #3636A1;
 }
+
+h2{
+    margin: 3rem auto;
+    font-size: 3rem;
+    color: #3636A1;
+    font-family: 'Rochester', cursive;
+}
