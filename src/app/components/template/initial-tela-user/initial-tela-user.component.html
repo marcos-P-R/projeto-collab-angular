@@ -1,0 +1,22 @@
+<section class="container-initial">
+    <section class="card-project">
+        <mat-card class="container-card">
+            <mat-card-title>Lorem ipsum</mat-card-title>
+            <mat-card-subtitle>Lorem</mat-card-subtitle>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id magnam at provident quia accusantium amet beatae, quod eos deleniti culpa? Esse nobis repellat iste aliquam tempore itaque cupiditate facere illo.
+        </mat-card>
+        <mat-card class="container-card">
+            <mat-card-title>Lorem ipsum 2</mat-card-title>
+            <mat-card-subtitle>Lorem</mat-card-subtitle>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id magnam at provident quia accusantium amet beatae, quod eos deleniti culpa? Esse nobis repellat iste aliquam tempore itaque cupiditate facere illo.
+        </mat-card>
+    </section>
+    <form class="container-form">
+        <mat-form-field class="container-full-width">
+          <mat-label>Message</mat-label>
+          <input matInput #message maxlength="256" placeholder="Ex. I need help with...">
+          <mat-hint align="start"><strong>Escreva sua mensagem</strong> </mat-hint>
+          <mat-hint align="end">{{message.value.length}} / 256</mat-hint>
+        </mat-form-field>
+      </form>
+</section>

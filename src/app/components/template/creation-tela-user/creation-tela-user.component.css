@@ -1,0 +1,40 @@
+.formulario{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-formulario{
+    width: 51%;
+    margin-top: 4.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5em;
+}
+
+input{
+    border-color: #3636A1;
+}
+
+h2{
+    margin: 3rem auto;
+    font-size: 3rem;
+    color: #3636A1;
+    font-family: 'Rochester', cursive;
+}
+
+textarea{
+    height: 10rem;
+}
+
+.container-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+button{
+    border-color: #3636A1;
+    margin: 2px;
+    width: 290px;
+    border-radius: 33px;
+}
